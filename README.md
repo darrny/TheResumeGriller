@@ -26,7 +26,7 @@
 
 ## 🚀 Getting Started
 
-- Simple head on to the [website](https://theresumegriller.vercel.app) and explore!
+- Simple head on to the [website](https://the-resume-griller.vercel.app/) and explore!
 
 ---
 
