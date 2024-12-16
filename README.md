@@ -1,50 +1,70 @@
-# React + TypeScript + Vite
+# 🔥 THE RESUME GRILLER 🔥  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**The Resume Griller** is a fun and interactive web application that *roasts* resumes with brutal feedback! 🚀 Upload your PDF resume, select your field of specialty, and watch as your resume gets analyzed, grilled, and *roasted to perfection!*  
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📌 Features  
 
-## Expanding the ESLint configuration
+- **PDF Upload Support:** Upload resumes as PDF files.  
+- **Field-Specific Analysis:** Choose from various specialties like AI, Data Science, Cybersecurity, etc.  
+- **Detailed Feedback:** Identify missing skills, experience gaps, and areas for improvement.  
+- **Scoring System:** Assigns scores for Education, Experience, Skills, and Projects sections.  
+- **Roasting Engine:** Brutally funny roasting tailored to your resume's shortcomings.  
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+---
 
-- Configure the top-level `parserOptions` property like this:
+## 🚀 Tech Stack  
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+- **Frontend:** React + TypeScript  
+- **Styling:** TailwindCSS  
+- **PDF Processing:** Custom PDF text extraction utility  
+- **AI Analysis Engine:** HuggingFace API using `facebook/bart-large-mnli`  
+- **Icons:** Lucide-react  
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+---
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+## 🚀 Getting Started
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+- Simple head on to the [website](https://theresumegriller.vercel.app) and explore!
+
+---
+
+## 🛠️ How It Works  
+
+1. **Select Your Field:** Choose your specialty (e.g., AI, Data Science).  
+2. **Upload Your Resume:** Upload your resume in PDF format.  
+3. **Roast It:** Click on the **"ROAST THIS RESUME!!!"** button.  
+4. **Get Feedback:** View section scores, field-specific issues, and improvement suggestions.  
+
+---
+
+## 🤖 AI Analysis Engine  
+
+- The Resume Griller leverages **HuggingFace API** with the Bart model
+
+---
+
+## 📋 Available Fields  
+
+The app supports multiple fields, including:  
+- Artificial Intelligence (AI)  
+- Machine Learning (ML)  
+- Data Science  
+- Cybersecurity  
+- Web Development  
+- Mobile App Development  
+- Cloud Computing  
+- Ethical Hacking  
+- Game Development  
+...and many more!  
+
+---
+
+## 📜 License  
+
+This project is licensed under the **MIT License**.  
+
+---
+
+Enjoy getting your resume roasted! 🔥🚀  
